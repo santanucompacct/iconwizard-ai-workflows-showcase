@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build output
+dist/
+build/
+.next/
+out/
+coverage/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+local.settings.json
+appsettings.*.local.json
+*.secrets.json
+
+# IDE and operating system
+.vscode/
+.idea/
+.vs/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+.cache/
+
+# Customer or real business data must never be committed
+customer-data/
+private-samples/
+uploads/
